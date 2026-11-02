@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>register</title>
+ </head>
+
+<body>
+
+<h1>User register page </h1>
+
+<form action="/add-user" method="POST">
+  
+   <label>Enter Fullname :</label>
+        <input type="text"  id="fullname"  name="firstname" > <br><br>
+
+  <label>Enter age :</label>
+        <input type="text"  id="age"  name="age"> <br><br>
+  
+  <label>Enter mobile :</label>
+        <input type="text"  id="mobile"  name="mobile"> <br><br>
+
+  <label>Enter Email :</label>
+        <input type="text"  id="email"  name="email"  ><br><br>
+    
+  <label>Gender :</label>
+	<input type="radio"  name ="gender" id="male"> Male    
+	<input type="radio"  name ="gender" id = "female"> Female <br><br>
+  
+  <label>Select City :</label>
+		<select   name= "city"  >	 
+			<option  id="pune"  >	<--Choose your city --->    </option>
+			<option  id= "pune" > Pune  </option>
+			<option  id= "satara" > Satara  </option>
+			<option  id= "mumbai" > Mumbai  </option>
+			<option  id= "nashik"> Nashik	</option>	
+		</select>	   <br><br>
+			
+   <label>Subjects :</label>
+	<input type="checkbox"  name ="subject" id="java"> Java    
+	<input type="checkbox"  name ="subject" id = "python"> Python
+	<input type="checkbox"  name ="subject" id = "mysql"> MySql  <br><br>
+  
+    <label>Enter Username:</label>
+            <input type="text"   id="username"    name="username"  ><br><br>
+
+    <label>Enter Password:</label>
+            <input type="password"  id="pass"  name="pass"><br><br>
+
+    <input type="submit" value="Register">
+
+</form>
+	 <a href = "login.html">	Allready Registered ? Login Now -->   </a>
+</body>
+</html>

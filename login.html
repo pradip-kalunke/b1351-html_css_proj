@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>amz-login</title>
+	<style>
+		h3{
+			color : green ;
+		}
+		label{  
+			 color: black,
+			 font-weight:bold;
+		}
+		
+		input[type="text"],
+		input[type="password"] {
+			background-color: lightgrey;
+		}
+		
+		input[type="submit"] {
+			background-color: blue;
+			color: white;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+
+<h1 style="color:red">User Login Details</h1>
+
+<form  action = "/verify-login"  method = "POST" >
+
+<label>Enter Username: </label>
+    <input type="text"  id="username"   name="username"   placeholder="Enter your username" >  <br> <br>
+
+<label>Enter Password:</label>
+        <input type="password"  id="pass"  name="pass"    placeholder="Enter your password" > <br> <br>
+
+        <input type="submit" value="Login">
+</form>
+
+
+<h3>Something missing ?? </h3>
+ <a href = "register.html">	New User ? Register first   </a>
+  
+  
+ <h3> footer contact us : </h3> 
+</body>
+</html>
